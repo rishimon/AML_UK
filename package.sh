@@ -6,5 +6,7 @@ version_num=1.1
 
 tar -pczf $group_id-$artifact_id-$version_num.tar.gz .
 
+tar -tvf *.tar.gz
+
 pwd
 ls -lrt
